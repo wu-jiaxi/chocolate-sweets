@@ -1,4 +1,23 @@
+# Chocolate Ecommerce Sight
+
+## Problem Statement
+
+Ecommerce sight for Chocolate Lovers
+
+## Target users
+
+Anyone who enjoys good chocolate
+
+## Wireframe
+
+![alt text](https://raw.githubusercontent.com/Jiaxi-Wu-Dev/calorie_counter/master/src/assets/Wireframe.png "Calorie Counter")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Resources Used
+
+https://www.youtube.com/watch?v=bv3U-Y3fmsA
+Go Java Full Stack with Spring Boot and React by in28MinutesOfficial
 
 ## Available Scripts
 
