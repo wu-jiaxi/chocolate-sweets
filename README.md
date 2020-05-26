@@ -10,7 +10,7 @@ Anyone who enjoys good chocolate
 
 ## Wireframe
 
-![alt text](https://raw.githubusercontent.com/Jiaxi-Wu-Dev/calorie_counter/master/src/assets/Wireframe.png "Calorie Counter")
+![alt text](https://raw.githubusercontent.com/Jiaxi-Wu-Dev/jiaxi-wu-dev.github.io/master/assets/Wireframe.png "Chocolate Ecommerce Website Wireframe")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
