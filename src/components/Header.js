@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-danger">
+    <nav className="navbar navbar-expand-md navbar-dark bg-danger h-100 ">
       <div>
         <h2 className="navbar-brand">Stick with me Sweets</h2>
       </div>

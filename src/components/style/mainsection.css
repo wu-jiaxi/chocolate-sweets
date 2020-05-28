@@ -1,0 +1,15 @@
+.clsFirstImg {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.clsSecondImg {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 130px;
+  left: 225px;
+  border: 1px red solid;
+}
