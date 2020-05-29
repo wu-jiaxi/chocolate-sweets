@@ -10,6 +10,7 @@ function MainSection() {
         src={mainpicturebonbon}
         width="100%"
         class="img-fluid clsFirstImg"
+        alt="bonbon"
       ></img>
       <ReactPlayer
         url="https://www.youtube.com/watch?v=U7cUzRpoDRE"
