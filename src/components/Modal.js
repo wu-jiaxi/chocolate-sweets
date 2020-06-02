@@ -15,7 +15,7 @@ export default class Modal extends Component {
             return null;
           } else {
             return (
-              <ModalContainer>
+              <ModalContainer>s
                 <div className="container">
                   <div className="row">
                     <div
