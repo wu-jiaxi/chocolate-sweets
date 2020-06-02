@@ -58,7 +58,7 @@ class ProductProvider extends Component {
         return { products: tempProducts, cart: [...this.state.cart, product] };
       },
       () => {
-        console.log(this.state);
+        this.addTotals();
       }
     );
   };
@@ -85,11 +85,39 @@ class ProductProvider extends Component {
   };
 
   removeItem = (id) => {
-    console.log("item was removed");
+    let tempProducts = [...this.state.products];
+    let tempCart = [...this.state.cart];
+
+    tempCart = tempCart.filter((item) => item.id !== id);
+
+    const index = tempProducts.indexOf(this.getItem(id));
+    let removedProducts = tempProducts[index];
+    removedProducts.inCart = false;
+    removedProducts.count = 0;
+    removedProducts.total = 0;
+
+    this.setState(
+      () => {
+        return {
+          cart: [...tempCart],
+          products: [...tempProducts],
+        };
+      },
+      () => {
+        this.addTotals();
+      }
+    );
   };
 
   clearCart = () => {
-    console.log("cart was cleared");
+    this.setState(
+      () => {
+        return { cart: [] };
+      },
+      () => {
+        this.setProducts();
+      }
+    );
   };
 
   addTotals = () => {
