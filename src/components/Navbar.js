@@ -22,11 +22,6 @@ Creative Commons (Attribution 3.0 Unported);
               products
             </Link>
           </li>
-          <li className="nav-item ml-5">
-            <Link to="/about" className="nav-link">
-              about
-            </Link>
-          </li>
         </ul>
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
