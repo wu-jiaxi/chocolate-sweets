@@ -7,6 +7,10 @@
 Project Contributer:
 Jiaxi Wu - [Github](https://github.com/Jiaxi-Wu-Dev)
 
+## API Used
+
+[The Dog API](https://thedogapi.com/)
+
 ## Publicaly Deployed Website
 
 [Website](chocolatebonbons.surge.sh)
