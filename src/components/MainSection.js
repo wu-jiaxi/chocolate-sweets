@@ -14,9 +14,9 @@ function MainSection() {
       ></img>
       <ReactPlayer
         url="https://www.youtube.com/watch?v=U7cUzRpoDRE"
-        className="clsSecondImg align-self-center"
-        width="1000px"
-        height="600px"
+        className="clsSecondImg"
+        width="800px"
+        height="500px"
       />
     </div>
   );
