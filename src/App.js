@@ -8,6 +8,7 @@ import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 import Home from "./components/Home";
+import About from "./components/About";
 
 /* import Home from "./components/Home";
 import Header from "./components/Header";
@@ -33,6 +34,8 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/products" component={ProductList} />
+          <Route path="/about" component={About} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />

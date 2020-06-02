@@ -12,11 +12,19 @@ class Navbar extends Component {
 https://www.iconfinder.com/icons/1243689/call_phone_icon
 Creative Commons (Attribution 3.0 Unported);
                 https://www.iconfinder.com/Makoto_msk */}
-        <h2 className="navbar-brand">Stick with me Sweets</h2>
+
+        <Link to="/">
+          <h2 className="navbar-brand">Stick with me Sweets</h2>
+        </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/" className="nav-link">
+            <Link to="/products" className="nav-link">
               products
+            </Link>
+          </li>
+          <li className="nav-item ml-5">
+            <Link to="/about" className="nav-link">
+              about
             </Link>
           </li>
         </ul>
