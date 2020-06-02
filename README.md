@@ -1,6 +1,8 @@
 # Chocolate Ecommerce Site
 
-# Full-stack Project built using React JS, Java SpringBoot, PostgresSql, and Bootstrap
+# Full-stack Project 
+
+built using React JS, Java SpringBoot, PostgresSql, and Bootstrap
 
 # App Name: - "Chocolatier Ecommerce"
 
