@@ -1,6 +1,6 @@
 # Chocolate Ecommerce Site
 
-# Full-stack Project 
+# Full-stack Project
 
 built using React JS, Java SpringBoot, PostgresSql, and Bootstrap
 
@@ -13,7 +13,7 @@ Jiaxi Wu - [Github](https://github.com/Jiaxi-Wu-Dev)
 
 [The Dog API](https://thedogapi.com/)
 
-## Publicaly Deployed Website
+## Publicaly Deployed Website With Surge
 
 [Website](chocolatebonbons.surge.sh)
 
