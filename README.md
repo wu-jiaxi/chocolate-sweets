@@ -28,3 +28,10 @@ Anyone who enjoys good chocolate
 ## Wireframe
 
 ![alt text](https://raw.githubusercontent.com/Jiaxi-Wu-Dev/jiaxi-wu-dev.github.io/master/public/assets/Wireframe.png "Chocolate Ecommerce Website Wireframe")
+
+## Resources Used
+
+https://www.youtube.com/watch?v=vtPkZShrvXQ&t=1269s
+https://www.youtube.com/watch?v=Ke7Tr4RgRTs
+https://www.youtube.com/watch?v=Law7wfdg_ls&t=989s
+https://www.youtube.com/watch?v=wPQ1-33teR4&t=20765s
