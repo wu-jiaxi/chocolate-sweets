@@ -182,7 +182,6 @@ class ProductProvider extends Component {
           clearCart: this.clearCart,
         }}
       >
-        <button onClick={this.tester}> Test Me </button>
         {this.props.children}
       </ProductContext.Provider>
     );
