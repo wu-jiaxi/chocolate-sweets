@@ -8,11 +8,11 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pusher</groupId>
-	<artifactId>shopping-cart</artifactId>
+	<groupId>com.chocolatier</groupId>
+	<artifactId>Chocolate-Website</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shopping-cart</name>
-	<description>Ecommerce App</description>
+	<name>Chocolate-Website</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -20,24 +20,16 @@
 
 	<dependencies>
 		<dependency>
-			    <groupId>org.springframework.boot</groupId>
-			    <artifactId>spring-boot-starter-data-jpa</artifactId>
-			    <version>2.2.2.RELEASE</version>
-		</dependency>
-		<dependency>
-			    <groupId>org.springframework.boot</groupId>
-			    <artifactId>spring-boot-starter-web</artifactId>
-			    <version>2.2.2.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
