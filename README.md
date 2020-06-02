@@ -1,4 +1,4 @@
-# Chocolate Ecommerce Sight
+# Chocolate Ecommerce Site
 
 # Full-stack Project built using React JS, Java SpringBoot, PostgresSql, and Bootstrap
 
