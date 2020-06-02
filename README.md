@@ -9,7 +9,7 @@ Jiaxi Wu - [Github](https://github.com/Jiaxi-Wu-Dev)
 
 ## Publicaly Deployed Website
 
-http://chocolatiers.surge.sh/
+chocolatebonbons.surge.sh
 
 ## Problem Statement
 
