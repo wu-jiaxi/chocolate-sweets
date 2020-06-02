@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/mainsection.css";
-import mainpicturebonbon from "../assets/mainpicbonbon.jpg";
+import mainpicturebonbon from "/Users/jiaxi/Desktop/Perscholas/hw/ecommerce/ecommerce/src/components/assets/mainpicbonbon.jpg";
 import ReactPlayer from "react-player";
 
 function MainSection() {
@@ -14,7 +14,7 @@ function MainSection() {
       ></img>
       <ReactPlayer
         url="https://www.youtube.com/watch?v=U7cUzRpoDRE"
-        class="clsSecondImg"
+        className="clsSecondImg align-self-center"
         width="1000px"
         height="600px"
       />
