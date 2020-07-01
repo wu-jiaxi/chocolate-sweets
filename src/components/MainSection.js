@@ -9,15 +9,18 @@ function MainSection() {
       <img
         src={mainpicturebonbon}
         width="100%"
-        class="img-fluid clsFirstImg"
+        className="clsFirstImg"
         alt="bonbon"
       ></img>
-      <ReactPlayer
-        url="https://www.youtube.com/watch?v=U7cUzRpoDRE"
-        className="clsSecondImg"
-        width="800px"
-        height="500px"
-      />
+      <div className="clsSecondImg">
+        <div className="bonBonVideo">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=U7cUzRpoDRE"
+            width="800px"
+            height="500px"
+          />
+        </div>
+      </div>
     </div>
   );
 }

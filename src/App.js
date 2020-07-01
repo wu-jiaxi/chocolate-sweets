@@ -8,7 +8,6 @@ import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 import Home from "./components/Home";
-import About from "./components/About";
 
 /* import Home from "./components/Home";
 import Header from "./components/Header";
