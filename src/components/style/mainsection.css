@@ -20,11 +20,15 @@
 } 
  */
 
-#main-container {
+html .home-page {
+  min-height: 100%;
+}
+
+.home-page {
   background-image: url("https://cdn.shopify.com/s/files/1/1110/4668/products/Copy_of_Copy_of_Photo_Credit_Evan_Sung-_lined_up_1024x1024@2x.jpg?v=1586017958");
   background-color: #cccccc;
   border: 1px solid red;
-  width: 100%;
+  background-size: cover;
 }
 
 .content {
