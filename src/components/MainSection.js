@@ -11,6 +11,7 @@ function MainSection() {
         <div className="content">
           <iframe
             frameborder="0"
+            id="video"
             allowfullscreen=""
             src="http://www.youtube.com/embed/_OBlgSz8sSM"
           ></iframe>
