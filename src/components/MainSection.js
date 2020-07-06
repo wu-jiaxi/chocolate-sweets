@@ -8,14 +8,14 @@ function MainSection() {
     <div id="main-container" className="container">
       {/* <img src={mainpicturebonbon} className="clsFirstImg" alt="bonbon"></img> */}
       <div className="clsSecondImg">
-        <div className="content">
-          <iframe
-            frameborder="0"
-            id="video"
-            allowfullscreen=""
-            src="http://www.youtube.com/embed/_OBlgSz8sSM"
-          ></iframe>
-        </div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/U7cUzRpoDRE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );
