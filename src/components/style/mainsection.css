@@ -21,3 +21,10 @@
   width: 100%;
   height: 100%;
 }
+
+.all-wrap {
+  background: url("https://cdn.shopify.com/s/files/1/1110/4668/products/Copy_of_Copy_of_Photo_Credit_Evan_Sung-_lined_up_1024x1024@2x.jpg?v=1586017958")
+    no-repeat center center fixed;
+  width: 100%;
+  background-size: cover;
+}
