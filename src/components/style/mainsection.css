@@ -5,3 +5,8 @@
 .clsSecondImg {
   overflow: hidden;
 }
+
+iframe {
+  width: 100%;
+  height: auto;
+}
