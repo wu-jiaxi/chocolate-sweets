@@ -5,17 +5,19 @@ import ReactPlayer from "react-player";
 
 function MainSection() {
   return (
-    <div id="main-container" className="container">
+    <div>
       {/* <img src={mainpicturebonbon} className="clsFirstImg" alt="bonbon"></img> */}
-      <div className="clsSecondImg">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/U7cUzRpoDRE"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div className="container">
+        <div className="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/U7cUzRpoDRE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );

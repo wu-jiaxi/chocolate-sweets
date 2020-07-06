@@ -1,12 +1,13 @@
-.clsSecondImg > iframe {
-  width: 100%;
-  margin-left: -50%;
-}
-.clsSecondImg {
-  overflow: hidden;
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-iframe {
-  width: 100%;
-  height: auto;
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
