@@ -4,11 +4,12 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --mainGreen: #007ea7;
 }
 
 body {
   font-family: "Oswald", sans-serif !important;
-  background: var(--mainwhite) !important;
+  background: var(--mainGreen) !important;
   color: var(--mainDark) !important;
 }
 
