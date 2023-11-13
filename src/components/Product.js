@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../context";
 import PropTypes from "prop-types";
+import "./product.css";
 
 export default class Product extends Component {
   render() {
@@ -86,6 +87,7 @@ const ProductWrapper = styled.div`
   }
   .card-img-top {
     transition: all 1s linear;
+    border-radius: 15px;
   }
 
   .img-container:hover .card-img-top {
