@@ -40,7 +40,10 @@ export default class Product extends Component {
               </div>
             )}
           </ProductConsumer>
-          <div className="card-footer d-flex justify-content-between">
+          <div
+            id="cardFooter"
+            className="card-footer d-flex justify-content-between"
+          >
             <p className="align-self-center mb-0">{title}</p>
             <h5 className="text-blue font-italic mb-0">
               <span className="mr-1">${price}</span>
@@ -114,5 +117,13 @@ const ProductWrapper = styled.div`
   .cart-btn:hover {
     color: var(--mainBlue);
     cursor: pointer;
+  }
+
+  .img-container p-5 {
+    border-radius: 25px;
+  }
+
+  #cardFooter {
+    border-radius: 25px;
   }
 `;
